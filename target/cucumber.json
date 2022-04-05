@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "automation-practical-exam;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7401602500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "StepDefinition.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3160536900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61067700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practical Exam",
+    "description": "",
+    "id": "automation-practical-exam",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/SkyBlue.feature"
+  }
+]
